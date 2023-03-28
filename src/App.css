@@ -1,38 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@font-face {
+  font-family: "Helvetica";
+  font-style: normal;
+  src: url(./fonts/helvetica_bold.otf);
+}
+
+@font-face {
+  font-family: "Random Grotesque Standard Medium";
+  font-style: normal;
+  src: url(./fonts/random-grotesque.standard-medium.ttf);
+}
+
 .App {
-  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  margin: 0 auto;
+  background: #f2f3ed;
+  border-radius: 15px;
+  width: 1015px;
+  padding: 40px 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.AppTitle {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #0e0e0e;
+  padding-bottom: 40px;
+  margin: 0;
 }
